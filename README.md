@@ -18,3 +18,5 @@ Challenges and Solutions:
 - **Reliability in Message Delivery**: Ensuring message delivery in a dynamic network environment was a challenge. The solution involved implementing acknowledgment mechanisms and message retransmission in case of failures.
 
 This project showcases skills in network programming, specifically in designing protocols that mimic TCP behavior in a wireless setting. It highlights an understanding of the complexities involved in reliable data transmission and efficient handling of network dynamics.
+
+Please do not copy. This project is uploaded solely for the purpose of portfolio demonstration.
