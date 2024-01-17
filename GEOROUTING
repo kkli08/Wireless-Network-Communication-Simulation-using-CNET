@@ -1,0 +1,25 @@
+
+//  Specify which C source files should be compiled for this simulation
+
+compile		= "lab3.c mobility.c -lm"
+icontitle	= "%n"
+
+//  Define the area of our simulation
+
+mapwidth	= 400m
+mapheight	= 400m
+
+// wlan - bandwidth= 512Kbps
+// wlan - probframecorrupt= 0
+//  All mobile nodes just use their default attributes, with one WLAN link
+//  Comment out MOBs for fewer nodes (with C comments), or simply add more
+
+mobile MOB00 { address= 100, wlan {} }
+mobile MOB01 { address= 105, wlan {} }
+mobile MOB02 { address= 110, wlan {} }
+mobile MOB03 { address= 115, wlan {} }
+mobile MOB04 { address = 120, wlan {} }
+accesspoint anchors { address =5,  wlan {} }
+
+var anchors= "5"
+var mobiles= "100, 105, 110, 115, 120"
